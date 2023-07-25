@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+
+
+.parent{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.BTN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.3;
+}
+
+#topBTN{
+    width: 10%;
+    height: 50px ;
+    margin-bottom: 2%;
+}
+
+.changeBG{
+    background-color: black;
+}
+
+.right {
+    border: 2px solid black;
+    width: 505px;
+    height: 505px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.grid-item{
+    flex-grow: 1;
+}
