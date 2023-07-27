@@ -1,9 +1,11 @@
 html{
     height: 100%;
+
 }
 
 body{
     height: 100%;
+    background: linear-gradient(#F29F05, #F28705);
 }
 
 
@@ -12,22 +14,27 @@ body{
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
 
-.BTN{
+.left-side{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex: 0.3;
+    flex-direction: column;
+    background: linear-gradient(#AB04D9, #AB05F2);
+    height: 509px;
+    border-radius: 4px;
 }
 
 #topBTN{
-    width: 10%;
-    height: 50px ;
+    width: 20%;
+    height: 40px ;
     margin-bottom: 2%;
+    border-radius: 8px;
 }
 
 .changeBG{
@@ -40,12 +47,18 @@ body{
     height: 505px;
     display: flex;
     flex-wrap: wrap;
-    
+    background-color: white;
 }
-
-
-
 
 .grid-item{
     flex-grow: 1;
+}
+
+.text{
+    color: #F2CB05;
+    margin-left: 0;
+    width: 70%;
+}
+h2{
+    text-align: center;
 }
